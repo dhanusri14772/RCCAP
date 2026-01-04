@@ -1,6 +1,6 @@
 # RCCAP
 RCCAP - Retail Media Creative Compliance Automation Platform
-RCCAP Hackathon Demo: AI-powered visual creative builder that enables advertisers to autonomously design, validate, and export professional, guideline-compliant retail media creatives in minutes - eliminating manual processes and expensive agency reliance.
+AI-powered visual creative builder that enables advertisers to autonomously design, validate, and export professional, guideline-compliant retail media creatives in minutes - eliminating manual processes and expensive agency reliance.
 
 🎯 Problem & Solution
 
