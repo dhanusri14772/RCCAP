@@ -2,21 +2,22 @@
 RCCAP - Retail Media Creative Compliance Automation Platform
 AI-powered visual creative builder that enables advertisers to autonomously design, validate, and export professional, guideline-compliant retail media creatives in minutes - eliminating manual processes and expensive agency reliance.
 
-🎯 Problem & Solution
+# 🎯  PROBLEM AND SOLUTION 
 
 The Challenge: Retail advertisers spend hours (and $$$) on agencies for compliant social creatives from plain packshots.
 RCCAP Solution: One-click pipeline → GenAI copy → GenAI styling → Auto-compliant layout → Social-ready video. Demo ready.
 
 
-🏗️ Architecture
+# 🏗️ ARCHITECHTURE
+
 
 <img width="1598" height="564" alt="image" src="https://github.com/user-attachments/assets/e83d01b8-3800-435c-9797-b05e98dce418" />
 
-🚀 Quick Start 
+
+# 🚀QUICK START 
+
 
 Backend (FastAPI)
-
-bash
 
 cd BACKEND
 
@@ -44,7 +45,9 @@ Live at: http://localhost:3000
 
 
 
-🎮 Live Demo Flow
+
+# 🎮 LIVE DEMO FLOW
+
 
 1. Promo: "Save 80% on juices!"
  
@@ -60,7 +63,8 @@ Output: Tesco-ready creative + video in <30s.
 
 
 
-🔌 API Endpoints
+
+# 🔌 API ENDPOINTS
 
 Endpoint	What it does
 
@@ -76,7 +80,9 @@ POST /api/validate	NLP+CV compliance
 
 
 
-📁 Modular Services (BACKEND/services/)
+
+# 📁 Modular Services (BACKEND/services/)
+
 
 nlp_service.py          # spaCy text validation
 
@@ -89,12 +95,12 @@ layout_service.py       # Tesco-compliant text bands
 video_service.py        # MoviePy MP4 generation
 
 
-📱 Demo Screenshots
 
+# 📱 Demo Screenshots
 Input → [GenAI Pipeline] → Output ready for Tesco social
 
 
-Before: Plain packshot
+# Before: Plain packshot
 
 
 
@@ -105,7 +111,9 @@ Before: Plain packshot
 
 
 
-After: Styled creative + compliant bands + social video
+
+# After: Styled creative + compliant bands + social video
+
 
 
 
@@ -115,7 +123,8 @@ After: Styled creative + compliant bands + social video
 
 
 
-🏆 Key Features
+
+# 🏆 Key Features
 
 ✅ Zero manual design: AI handles copy, styling, layout
 
@@ -126,14 +135,15 @@ After: Styled creative + compliant bands + social video
 ✅ Production scale: FastAPI + static asset serving
 
 
-📊 Tech Stack
+
+# 📊 Tech Stack
 FastAPI | React | OpenAI | spaCy | OpenCV | MoviePy | Pillow
 
 
-💻Developer
+# 💻Developer
 Dhanusri.T - Full-stack AI/ML engineer
 Final-year AI & Data Science | Python | GenAI | Full-stack
 
-📄 License
+# 📄 License
 MIT License
 
