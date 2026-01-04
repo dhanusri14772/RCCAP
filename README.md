@@ -142,6 +142,7 @@ FastAPI | React | OpenAI | spaCy | OpenCV | MoviePy | Pillow
 
 # 💻Developer
 Dhanusri.T - Full-stack AI/ML engineer
+
 Final-year AI & Data Science | Python | GenAI | Full-stack
 
 # 📄 License
