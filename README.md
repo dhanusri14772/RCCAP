@@ -3,13 +3,16 @@ RCCAP - Retail Media Creative Compliance Automation Platform
 RCCAP Hackathon Demo: AI-powered visual creative builder that enables advertisers to autonomously design, validate, and export professional, guideline-compliant retail media creatives in minutes - eliminating manual processes and expensive agency reliance.
 
 🎯 Problem & Solution
+
 The Challenge: Retail advertisers spend hours (and $$$) on agencies for compliant social creatives from plain packshots.
 RCCAP Solution: One-click pipeline → GenAI copy → GenAI styling → Auto-compliant layout → Social-ready video. Demo ready.
 
 🏗️ Architecture
+
 <img width="1598" height="564" alt="image" src="https://github.com/user-attachments/assets/e83d01b8-3800-435c-9797-b05e98dce418" />
 
 🚀 Quick Start 
+
 Backend (FastAPI)
 bash
 cd BACKEND
@@ -43,26 +46,44 @@ POST /api/generate_creative	Image styling variants
 POST /api/validate	NLP+CV compliance
 
 📁 Modular Services (BACKEND/services/)
-text
+
 nlp_service.py          # spaCy text validation
 text_genai_service.py   # OpenAI copy enhancement
 genai_service.py        # Product image styling
 layout_service.py       # Tesco-compliant text bands
 video_service.py        # MoviePy MP4 generation
 
+📱 Demo Screenshots
+Input → [GenAI Pipeline] → Output ready for Tesco social
+
+Before: Plain packshot
+<img width="545" height="754" alt="image" src="https://github.com/user-attachments/assets/a391782b-d18d-4ef5-845a-3262a5962460" />
+
+
+After: Styled creative + compliant bands + social video
+<img width="382" height="556" alt="image" src="https://github.com/user-attachments/assets/af8b8a12-5715-4190-8711-ca8fd0576918" />
+
+
 🏆 Key Features
+
 ✅ Zero manual design: AI handles copy, styling, layout
+
 ✅ Tesco compliance: Automated text bands + validation
+
 ✅ Social-ready: 6s MP4 videos with music
+
 ✅ Production scale: FastAPI + static asset serving
 
 📊 Tech Stack
+
 FastAPI | React | OpenAI | spaCy | OpenCV | MoviePy | Pillow
 
 💻Developer
+
 Dhanusri.T - Full-stack AI/ML engineer
 Final-year AI & Data Science | Python | GenAI | Full-stack
 
 📄 License
+
 MIT License
 
